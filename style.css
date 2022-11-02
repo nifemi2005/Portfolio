@@ -533,7 +533,7 @@ footer p:nth-child(2){
         display: block;
         color: #dea32c;
         padding-top: 24px;
-        padding-right: 70px;
+        padding-right: 10rem;
     }
     .joiner{
         display: flex;
@@ -583,7 +583,7 @@ footer p:nth-child(2){
         font-size: 20px;
     }
     .pra p{
-        font-size: px;
+        font-size: 25px;
     }
     .card{
         height: 465px;
@@ -657,7 +657,7 @@ footer p:nth-child(2){
         display: block;
         color: #dea32c;
         padding-top: 24px;
-        /* padding-right: 20rem; */
+        padding-right: 10rem;
     }
 
     .joiner {
