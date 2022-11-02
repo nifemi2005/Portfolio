@@ -657,7 +657,7 @@ footer p:nth-child(2){
         display: block;
         color: #dea32c;
         padding-top: 24px;
-        padding-right: 20rem;
+        /* padding-right: 20rem; */
     }
 
     .joiner {
