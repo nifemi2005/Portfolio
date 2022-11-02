@@ -5,6 +5,9 @@
   font-family: 'Josefin Sans', sans-serif;
   scroll-behavior: smooth;
 }
+body{
+    width: 100%;
+}
 .hero{
     width: 100%;
     height: 100vh;
@@ -178,7 +181,7 @@ button:hover{
 }
 .card{
     height: 365px;
-    width: 335px;
+    width: 27%;
     padding: 20px 35px;
     background-color: #191919;
     border-radius: 20px;
@@ -497,17 +500,24 @@ footer p:nth-child(2){
 .cardo i{
     display: none;
 }
+/* For Mobile */
 @media(max-width:400px){
     header{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+    .flex{
+        width: 113%;
+    }
     body{
-        width: 310%;
+        width: 300%;
     }
     nav ul{
         display: none;
+    }
+    nav h2{
+        font-size: 40px;
     }
     .box{
         display: flex;
@@ -522,6 +532,8 @@ footer p:nth-child(2){
         font-size: 50px;
         display: block;
         color: #dea32c;
+        padding-top: 24px;
+        padding-right: 70px;
     }
     .joiner{
         display: flex;
@@ -532,7 +544,7 @@ footer p:nth-child(2){
         display: block;
     }
     .hero{
-        width: 300%;
+        width: 100%;
         height: 340vh;
         background-image: url(background.jpg);
         background-position: center;
@@ -556,6 +568,10 @@ footer p:nth-child(2){
     #about{
         width: 113%;
     }
+    #about img {
+        height: auto;
+        width: 330px;
+    }
     .about-text p{
         line-height: 38px;
         font-size: 25px;
@@ -570,14 +586,203 @@ footer p:nth-child(2){
         font-size: px;
     }
     .card{
-        height: 365px;
-        width: 35%;
+        height: 465px;
+        width: 40%;
         padding: 20px 35px;   
+        border-radius: 0px;
     }
     .content{
         position: absolute;
         top: 150%;
         left: 50%;
         transform: translateY(-50%);
+    }
+    #service{
+        width: 113%;
+    }
+    .title h2{
+        /* font-size: 32px; */
+        width: 100%;
+    }
+    #project{
+        width: 113%;
+    }
+    #skills {
+        width: 113%;
+    }
+    .other-thing{
+        width: 113%;
+    }
+    footer{
+        width: 113%;
+    }
+}
+/* For Tablet */
+@media(max-width:1000px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .flex {
+        width: 113%;
+    }
+
+    body {
+        width: 300%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav h2 {
+        font-size: 40px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardo i {
+        font-size: 50px;
+        display: block;
+        color: #dea32c;
+        padding-top: 24px;
+        padding-right: 20rem;
+    }
+
+    .joiner {
+        display: flex;
+        align-items: center;
+    }
+
+    i {
+        display: block;
+    }
+
+    .hero {
+        width: 100%;
+        height: 340vh;
+        background-image: url(background.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .content h1 {
+        margin: 20px 0 20px;
+        font-size: 41px;
+    }
+
+    .content h3 {
+        font-size: 27px;
+        margin-bottom: 50px;
+    }
+
+    .content h4 {
+        letter-spacing: 2px;
+        font-size: 29px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+
+    #about {
+        width: 113%;
+        /* height: 150vh; */
+    }
+
+    #about img {
+        height: auto;
+        /* width: 430px; */
+    }
+
+    .about-text p {
+        line-height: 38px;
+        font-size: 25px;
+    }
+
+    .about-text h5 {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    .pra p {
+        font-size: px;
+    }
+
+    .card {
+        height: 465px;
+        width: 40%;
+        padding: 20px 35px;
+        /* border-radius: 0px; */
+    }
+
+    .content {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translateY(-50%);
+    }
+
+    #service {
+        width: 113%;
+    }
+
+    .title h2 {
+        /* font-size: 32px; */
+        width: 100%;
+    }
+
+    #project {
+        width: 113%;
+    }
+
+    #skills {
+        width: 113%;
+        height: 600px;
+    }
+
+    .other-thing {
+        width: 113%;
+    }
+
+    footer {
+        width: 113%;
+    }
+    .item-1 img {
+        width: 80%;
+    }
+    .item-1 h2{
+        /* font-size: 30px; */
+    }
+    .item-2 img {
+        width: 80%;
+    }
+    .item-2 h2 {
+        /* font-size: 30px; */
+    }
+    .item-3 img {
+        width: 80%;
+    }
+    .item-3 h2 {
+        /* font-size: 30px; */
+    }
+    .item
+    .skills{
+        width: 40%;
+        height: 500px;
     }
 }
