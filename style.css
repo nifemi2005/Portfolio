@@ -5,84 +5,97 @@
   font-family: 'Josefin Sans', sans-serif;
   scroll-behavior: smooth;
 }
-body{
+/* body{
     width: 100%;
-}
-.hero{
-    width: 100%;
-    height: 100vh;
-}
-nav{
+} */
+/* .fl{
+    background-image: url(./My\ hero\ picture.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+} */
+/* nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
-}
-.logo{
+} */
+/* .logo{
     color: black;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
-}
-span{
+} */
+/* span{
     color: #dea32c;
-}
+} */
+/* .flex-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+} */
+/* .my-hero-pic img{
+    border-radius: 100px;
+    width: 200px;
+} */
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
-nav ul li a{
+/* nav ul li a{
     color: black;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
-}
-nav ul li a:hover{
+} */
+/* nav ul li a:hover{
     color: #dea32c;
     transition: 0.4s;
-}
-.content{
-    position: absolute;
+} */
+/* .content{
+    position: relative; 
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
-}
+} */
 h3, h1, h5{
     color: white;
 }
-.content h1{
+/* .content h1{
   margin: 20px 0 20px;
   font-size: 65px;
   color: black;
-}
-.content h3{
+} */
+/* .content h3{
   font-size: 25px;
   color: black;
   margin-bottom: 50px;
-}
-.content h4{
+} */
+/* .content h4{
   color: black;
   letter-spacing: 2px;
   font-size: 20px;
-}
-.newslatter form{
-    width: 412px;
+} */
+/* .newslatter form{
+    width: 432px;
     max-width: 100%;
     position: relative;
-}
-.newslatter form input:first-child{
-    display: inline-block;
+} */
+/* .newslatter form input:first-child{
+    display: inline-block; */
     /* width: 100%; */
-    padding: 14px 210px 14px 15px;
+    /* padding: 14px 210px 14px 15px;
     border: 2px solid #dea32c;
     outline: none;
     border-radius: 30px;
-}
+} */
 .newslatter form input:last-child{
-    position: absolute;
+    /* position: absolute; */
     display: inline-block;
     outline: none;
     border: none;
@@ -91,59 +104,59 @@ h3, h1, h5{
     background-color: #dea32c;
     color: white;
     box-shadow: 0 0 5px #000, 0 0 15px #858585;
-    top: 6px;
-    right: 50px;
+    /* top: 6px;
+    right: 50px; */
 }
-#about{
+/* #about{
   width: 100%;
   padding: 140px 0;
   background-color: #191919;
-}
-#about img{
+} */
+/* #about img{
     height: auto;
     width: 430px;
-}
-.about-text{
+} */
+/* .about-text{
     width: 550px;
-}
-.flex{
+} */
+/* .flex{
   display: flex;
   align-items: center;
-}
+} */
 .img{
   height: auto;
   width: 430px;
   border-radius: 10%;
 }
-.main{
+/* .main{
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-.about-text h2{
+} */
+/* .about-text h2{
     color: white;
     font-size: 65px;
     text-transform: capitalize;
     margin-bottom: 20px;
-}
-.about-text h5{
+} */
+/* .about-text h5{
     color: white;
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
-}
-.about-text p{
+} */
+/* .about-text p{
     color: #fcfc;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
-}
-button{
+} */
+/* button{
     background-color: #dea32c;
     color: white;
     text-decoration: none;
@@ -153,33 +166,33 @@ button{
     border-radius: 300px;
     transition: 0.4s;
 
-}
-button:hover{
+} */
+/* button:hover{
     background-color: transparent;
     border: 2px solid #dea32c;
     cursor: pointer;
-}
-#service{
+} */
+/* #service{
     background-color: white;
     width: 100%;
     padding: 90px 0;
-}
-.title h2{ 
+} */
+/* .title h2{ 
   color: black;
   font-size: 65px;
   width: 1130px;
   margin: 0px auto;
   
   text-align: center;
-}
-.box{
+} */
+/* .box{
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 400px;
   margin-top:40px;
-}
-.card{
+} */
+/* .card{
     height: 365px;
     width: 27%;
     padding: 20px 35px;
@@ -189,26 +202,26 @@ button:hover{
     position: relative;
     overflow: hidden;
     text-align: center;
-}
-.card i{
+} */
+/* .card i{
     font-size: 50px;
     display: block;
     text-align: center;
     margin: 25px;
     color: #dea32c;
-}
-.card h5{
+} */
+/* .card h5{
     color: white;
     font-size: 23px;
     margin-bottom: 15px;
-}
-.pra p{
+} */
+/* .pra p{
     color: #fcfc;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
-}
-.card .button{
+} */
+/* .card .button{
   background-color: #dea32c;
   color: black;
   text-decoration: none;
@@ -217,61 +230,60 @@ button:hover{
   padding: 9px 22px;
   border-radius: 300px;
   transition: 0.4s;
-}
-.card .button:hover{
+} */
+/* .card .button:hover{
   background-color: transparent;
   border: 2px solid #dea32c;
   cursor: pointer;
   color:white;
-}
-#project{
+} */
+/* #project{
     width: 100%;
     padding: 80px 0;
     background-color: #191919;
-}
-.pro h2{
+} */
+/* .pro h2{
   color: white;
-}
-.container{
+} */
+/* .container{
     display: flex;
     margin: 20px 20px;
-}
-.item-1{
+} */
+/* .item-1{
     border:4px solid #dea32c;
     padding: 64px 32px;
     margin: 16px auto;
-    /* grid-area: a; */
     background-color: white;
     width: 30%;
-}
-.item-1 img{
+} */
+/* .item-1 img{
     width: 250px;
-}
-.mine{
+} */
+/* .mine{
     display: block;
     font-size: 24px;
     margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+    margin-block-end: 0.83em;/
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-.info{
+} */
+/* .info{
     display: block;
     margin-block-start: 16px;
     margin-block-end: 16px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     line-height: 20px;
-}
-.item-2{
+} */
+/* .item-2{
     background-color: white;
     padding: 64px 32px;
-    border: 5px solid #dea32c;
+    border: 4px solid #dea32c;
     margin: 16px;
     width: 30%;
-}
-.item-2 h2{
+} */
+/* .item-2 h2{
     display: block;
     font-size: 24px;
     margin-block-start: 0.83em;
@@ -279,26 +291,26 @@ button:hover{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-.item-2 img{
+} */
+/* .item-2 img{
     width: 250px;
-}
-.item-2 p{
+} */
+/* .item-2 p{
     display: block;
     margin-block-start: 16px;
     margin-block-end: 16px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     line-height: 20px;
-}
-.item-3{
+} */
+/* .item-3{
   background-color: white;
   padding: 64px 32px;
-  border: 5px solid #dea32c;
+  border: 4px solid #dea32c;
   margin: 16px auto;
   width: 30%;
-}
-.item-3 h2{
+} */
+/* .item-3 h2{
     display: block;
     font-size: 24px;
     margin-block-start: 0.83em;
@@ -306,46 +318,46 @@ button:hover{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-.item-3 img{
+} */
+/* .item-3 img{
     width: 250px;
-}
-.item-3 p{
+} */
+/* .item-3 p{
     display: block;
     margin-block-start: 16px;
     margin-block-end: 16px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     line-height: 20px;
-}
+} */
 .skills{
-  list-style: none;
+  /* list-style: none;
   background-color: #333;
   text-transform: uppercase;
   width: 500px;
   margin: 100px auto;
   color: #333;
-  padding: 20px;
+  padding: 20px; */
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 
 }
-.skills h1{
+/* .skills h1{
   text-align: center;
-}
-.skills h3{
+} */
+/* .skills h3{
   margin: 5px;
-}
-.skills li{
+} */
+/* .skills li{
   margin: 20px 0;
   padding: 10px;
-}
+} */
 .bar{
-  background: #353b48;
+  /* background: #353b48;
   display: block;
-  height: 20px;
+  height: 20px; */
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  overflow: hidden;
+  /* border-radius: 10px;
+  overflow: hidden; */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
@@ -413,7 +425,7 @@ button:hover{
     width: 60%;
   }
 }
-footer{
+/* footer{
     position: relative;
     width: 100%;
     height: 400px;
@@ -422,24 +434,24 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-footer p:nth-child(1){
+} */
+/* footer p:nth-child(1){
     font-size: 30px;
     color: black;
     margin-bottom: 20px;
     font-weight: bold;
-}
-footer p:nth-child(2){
+} */
+/* footer p:nth-child(2){
     color: black;
     font-size: 17px;
     width: 500px;
     text-align: center;
     line-height: 26px;
-}
-.social{
+} */
+/* .social{
     display: flex;
-}
-.social a{
+} */
+/* .social a{
     width: 45px;
     height: 45px;
     display: flex;
@@ -451,32 +463,31 @@ footer p:nth-child(2){
     color: white;
     text-decoration: none;
     font-size: 20px;
-}
+} */
 .social a:hover{
     transform: scale(1.3);
     transition: 0.3s;
 }
-.end{
+/* .end{
     position: absolute;
     color: #dea32c;
     bottom: 35px;
-    font-size: 14px;
-    
-}
-.other-thing{
+    font-size: 14px;  
+} */
+/* .other-thing{
     background-color: #191919;
     padding: 100px 30px;
-}
-.other-thing h2{
+} */
+/* .other-thing h2{
     text-align: center;
     color: white;
     padding-bottom: 30px;
-}
-.joiner{
+} */
+/* .joiner{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
+} */
 .hobby h3{
     font-weight: bold;
 }
@@ -497,23 +508,37 @@ footer p:nth-child(2){
 .priorities li{
     padding: 10px 0;
 }
-.cardo i{
+/* .cardo i{
     display: none;
-}
+} */
 /* For Mobile */
 @media(max-width:400px){
-    header{
+    /* header{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    .flex{
-        width: 113%;
+    .flex {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1500px;
+        height: 1500px;
+
     }
-    body{
-        width: 300%;
+    .flex-content {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 0%;
     }
-    nav ul{
+    .flex-content h4{
+        font-size: 70px;
+    } */
+    /* body{
+        width: 100%;
+    } */
+    /* nav ul{
         display: none;
     }
     nav h2{
@@ -542,15 +567,8 @@ footer p:nth-child(2){
     }
     i{
         display: block;
-    }
-    .hero{
-        width: 100%;
-        height: 340vh;
-        background-image: url(background.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .content h1{
+    } */
+    /* .content h1{
         margin: 20px 0 20px;
         font-size: 41px;
     }
@@ -563,7 +581,7 @@ footer p:nth-child(2){
         font-size: 29px;
     }
     .logo{
-        font-size: 35px;
+        font-size: 1055px;
     }
     #about{
         width: 113%;
@@ -599,12 +617,12 @@ footer p:nth-child(2){
     }
     #service{
         width: 113%;
-    }
-    .title h2{
-        /* font-size: 32px; */
+    } */
+    /* .title h2{
+        font-size: 32px;
         width: 100%;
-    }
-    #project{
+    } */
+    /* #project{
         width: 113%;
     }
     #skills {
@@ -615,11 +633,11 @@ footer p:nth-child(2){
     }
     footer{
         width: 113%;
-    }
+    } */
 }
 /* For Tablet */
 @media(max-width:1000px) {
-    header {
+    /* header {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -633,6 +651,11 @@ footer p:nth-child(2){
         width: 300%;
     }
 
+    .my-hero-pic img {
+        border-radius: 100px;
+        width: 200px;
+        display: none;
+    }
     nav ul {
         display: none;
     }
@@ -694,12 +717,11 @@ footer p:nth-child(2){
 
     .logo {
         font-size: 35px;
-    }
+    } */
 
-    #about {
+    /* #about {
         width: 113%;
-        /* height: 150vh; */
-    }
+    } */
 
     #about img {
         height: auto;
@@ -730,38 +752,38 @@ footer p:nth-child(2){
         /* border-radius: 0px; */
     }
 
-    .content {
+    /* .content {
         position: absolute;
         top: 150%;
         left: 50%;
         transform: translateY(-50%);
-    }
+    } */
 
-    #service {
+    /* #service {
         width: 113%;
-    }
+    } */
 
     .title h2 {
         /* font-size: 32px; */
         width: 100%;
     }
 
-    #project {
+    /* #project {
         width: 113%;
-    }
+    } */
 
-    #skills {
+    /* #skills {
         width: 113%;
         height: 600px;
-    }
+    } */
 
-    .other-thing {
+    /* .other-thing {
         width: 113%;
-    }
+    } */
 
-    footer {
+    /* footer {
         width: 113%;
-    }
+    } */
     .item-1 img {
         width: 80%;
     }

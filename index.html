@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -9,205 +8,228 @@
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="shortcut icon" href="path/to/favicon.ico" type="image/x-icon" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-  <div class="flex">
-    <div class="hero">
-      <header>
-        <nav>
-          <h2 class="logo">Portfo<span>lio</span></h2>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#service">Services</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
+  <div class="">
+    <div class="">
+      <header class="md:flex md:items-center block md:justify-between md:px-[75px] px-[8%] md:pt-[45px] pt-[30px]">
+        <nav class="md:flex md:justify-between md:items-center">
+          <h2 class="logo cursor-pointer text-black md:text-[35px] text-[20px]">Portfo<span class='text-[#dea32c]'>lio</span></h2>
+          <ul class="font-bold text-black decoration-current hidden lg:block">
+            <li><a href="#" class="hover:text-[#dea32c] duration-150">Home</a></li>
+            <li><a href="#about" class="hover:text-[#dea32c] duration-150">About Me</a></li>
+            <li><a href="#service" class="hover:text-[#dea32c] duration-150">Services</a></li>
+            <li><a href="#project" class="hover:text-[#dea32c] duration-150">Projects</a></li>
+            <li><a href="#skills" class='hover:text-[#dea32c] duration-150'>Skills</a></li>
+            <li><a href="contact.html" class="hover:text-[#dea32c] duration-150">Contact Me</a></li>
           </ul>
         </nav>
         <div class="cardo">
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars lg:hidden block md:text-[23px]"></i>
         </div>
-     </header>
-     <div class="flex">
-       <div class="content">
-          <h4>Hello, my name is</h4>
-          <h1>Oluwanifemi <span>Temenu</span></h1>
-          <h3>I am a web Developer.</h3>
-         <div class="newslatter">
-            <form>
-              <input type="email" name="email" id="mail" placeholder="Enter Your Email" required>
-              <a href="contact.html">
-                <input type="submit" name="submit" value="Contact me">
-              </a>
-            </form>
-         </div>
-       </div>
-     </div>     
+      </header>
     </div>
+    
+    <div class="flex-content lg:px-[8%] px-[8%] lg:py-[130px] py-[20px] lg:flex lg:items-center lg:justify-between lg:w-[100vh]">
+      <div class="content">
+        <h4 class="text-center lg:text-start md:text-[25px] text-[black] text-[30px]">Hello, my name is</h4>
+        <h1 class="text-[40px] md:text-[65px] text-[black] lg:text-start text-center">Oluwanifemi <span class="text-[#dea32c] md:leading-3 leading-[12px]">Temenu</span></h1>
+        <h3 class="lg:text-start text-center text-[20px] md:text-[25px] text-[black] md:pb-[40px] pb-[20px]">I am a web Developer.</h3>
+        <div class="newslatter">
+          <form class="lg:flex md:items-center lg:flex-row flex flex-col">
+            <input type="email" name="email" class="md:border md:rounded-[30px] rounded-[30px] md:py-[14px] py-[14px] md:pl-[15px] pl-[15px] md:pr-[210px] border-solid border-2 border-[#dea32c]" id="mail" placeholder="Enter Your Email" required>
+            <a href="contact.html" class="items-center lg:ml-[20px] lg:mx-0 mx-auto block lg:mt-0 mt-[10px]">
+              <input type="submit" name="submit" class="text-white bg-[#dea32c]" value="Contact me">
+            </a>
+          </form>
+        </div>
+      </div>
+      <div class='my-hero-pic md:w-[200px] lg:block hidden'>
+        <img src="My hero picture.jpeg" class="rounded-full" alt="My picture">
+      </div>
+    </div>   
     
   </div>
   
    <!-- about section start -->
-    <section id="about">
-        <div class="main">
-            <img src="My Picture.jpg" alt="My Picture">
-          <main>
-            <div class="about-text">
-                <h2>About Me</h2>
-                <h5>Developer <span>& Gamer</span></h5>
-                <p>
-                  Front-end developer here. I can produce pixel-perfect design and tidy code. 
-                  I also use web animation and responsive design to make the website ever more engaging. 
-                  Your website is available to all people thanks to responsive design, regardless of their devices.
-                </p>
-                <button type="button">let's Talk</button>
-            </div>
-          </main>
-            
+    <div id="about" class="bg-[#191919] lg:py-[140px] py-[80px]">
+      <div class="main lg:flex lg:items-center lg:mx-auto lg:my-0 lg:justify-around lg:max-w-[95%] lg:w-[1130px]">
+        <div class="lg:w-[430px] md:w-[350px] w-[250px] block lg:mx-0 mx-auto">
+          <img src="My hero picture.jpeg" class="lg:h-auto lg:hidden block  border-[#dea32c] lg:border-0 border-2 md:border-4 lg:rounded-[0px] rounded-full lg:mb-0 mb-[10px]" alt="My Picture">
+          <img src="My Picture.jpg"
+            class="md:h-auto lg:block hidden  border-[#dea32c] lg:border-0 border-2 lg:rounded-[0px] rounded-full lg:mb-0 mb-[10px]"
+            alt="My Picture">
         </div>
-    </section>
-   <div id="service">
-    <div class="title">
+        <main>
+          <div class="about-text lg:w-[550px]">
+            <h2 class="text-white md:text-[65px] md:mb-[20px] lg:text-start text-center text-[40px]">About Me</h2>
+            <h5 class="md:text-[25px] text-white md:mb-[25px] lg:text-start text-center">Developer <span class="text-[#dea32c]">& Gamer</span></h5>
+            <p class="text-[#fcfc] md:leading-[28px] md:text-[20px] sm:text-[17px] text-[10px] md:mb-[45px] md:tracking-tighter lg:text-start text-center md:px-[30px] lg:px-0 px-[20px]">
+              Front-end developer here. I can produce pixel-perfect design and tidy code. 
+              I also use web animation and responsive design to make the website ever more engaging. 
+              Your website is available to all people thanks to responsive design, regardless of their devices.
+            </p>
+            <div class="text-center lg:text-start">
+              <button type="button" class="md:mx-0 mx-auto text-white bg-[#dea32c] rounded-[300px] md:py-[13px] py-[15px] md:px-[30px] px-[35px] md:mt-0 mt-[10px] border-2 border-solid border-transparent font-bold hover:cursor-pointer hover:border-2 hover:bg-transparent hover:border-[#dea32c] md:text-[20px] text-[15px]">
+                let's Talk
+              </button>
+            </div>
+          </div>
+        </main>
+            
+      </div>
+    </div>
+  <div id="service" class="bg-white lg:py-[80px] md:py-[60px]">
+    <div class="title text-black md:text-[65px] sm:text-[50px] lg:pt-0 sm:pt-[20px] pt-[20px] text-[30px] lg:w-[1130] lg:mx-auto text-center">
       <h2>My Services</h2> 
     </div>
-        <div class="box">
-          <div class="card">
-            <i class="fa-solid fa-bars"></i>
-              <h5>Web Development</h5>
-              <div class="pra">
-                <main>
-                  <p>
-                    Every website should be created with two main goals in mind: 
-                    it must, first, function on all devices. 
-                    Second, it must move as quickly as feasible.
-                  </p>    
-                </main>
+    <div class="box lg:flex lg:justify-center md:mt-[40px] lg:min-h-[400px] lg:items-center">
+      <div class="card text-center bg-[#191919] rounded-[20px] lg:m-[15px] md:py-[20px] md:px-[35px] lg:h-[400px] md:h-[395px] sm:h-[355px] h-[auto] lg:w-[25%] md:w-[50%] w-[80%] sm:w-[60%] mx-auto mt-[30px] mb-[30px]">
+        <i class="fa-solid fa-bars sm:text-[50px] text-[40px] block text-center text-[#dea32c] md:m-[25px] m-[20px]"></i>
+        <h5 class="text-white md:text-[23px] mb-[15px]">Web Development</h5>
+        <div class="pra">
+          <main>
+            <p class="md:text-[#fcfc] text-[#fd8afdcc] text-[16px] mb-[25px] leading-[27px]">
+              Every website should be created with two main goals in mind: 
+              it must, first, function on all devices. 
+              Second, it must move as quickly as feasible.
+            </p>    
+          </main>
                     
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-              </div>
-            </div>
-
-            <div class="card">
-                <i class="fa-regular fa-user"></i>
-                <h5>Web Development</h5>
-                <div class="pra">
-                    <main>
-                      <p>My work is to make sure that website visitors may engage with the page easily with whatever they view, click on, or utilize while on the page.
-                      </p>    
-                    </main>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <i class="fa-regular fa-bell"></i>
-                <h5>Web Development</h5>
-                <div class="pra">
-                    <main>
-                      <p>Managing software workflow is an essential service I can provide as it is important to monitor and improve the website
-                      </p>    
-                  </main>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
+          <p style="text-align: center;">
+            <a class="button bg-[#dea32c] text-black rounded-[300px] py-[13px] px-[22px] font-bold border-transparent border-2 border-solid duration-150 hover:bg-transparent hover:text-white hover:cursor-pointer hover:border-2 hover:border-solid hover:border-[#dea32c]" href="#">Read More</a>
+          </p>
         </div>
+      </div>
+      <div class="card text-center bg-[#191919] rounded-[20px] lg:m-[15px] md:py-[20px] md:px-[35px] lg:h-[400px] md:h-[395px] sm:h-[355px] h-auto lg:w-[25%] md:w-[50%] w-[80%] sm:w-[60%] mx-auto mb-[30px]">
+        <i class="fa-regular fa-user text-[40px] md:text-[50px] block text-center text-[#dea32c] md:m-[25px] m-[20px]"></i>
+        <h5 class="text-white md:text-[23px] mb-[15px]">Web Development</h5>
+        <div class="pra">
+          <main>
+            <p class="md:text-[#fcfc] text-[#fd8afdcc] text-[16px] mb-[25px] leading-[27px]">My work is to make sure that website visitors may engage with the page easily with whatever they view, click
+              on, or utilize while on the page.
+            </p>
+          </main>
+          <p style="text-align: center;">
+            <a class="button bg-[#dea32c] text-black rounded-[300px] py-[13px] px-[22px] font-bold border-transparent border-2 border-solid duration-150 hover:bg-transparent hover:text-white hover:cursor-pointer hover:border-2 hover:border-solid hover:border-[#dea32c]" href="#">Read More</a>
+          </p>
+        </div>
+      </div>
+      <div class="card text-center bg-[#191919] rounded-[20px] lg:m-[15px] md:py-[20px] md:px-[35px] lg:h-[400px] md:h-[395px] sm:h-[355px] h-auto lg:w-[25%] md:w-[50%] sm:w-[60%] w-[80%] mx-auto mb-[30px]">
+        <i class="fa-regular fa-bell text-[40px] m-[20px] md:text-[50px] block text-center text-[#dea32c] md:m-[25px]"></i>
+        <h5 class="text-white md:text-[23px] mb-[15px]">Web Development</h5>
+        <div class="pra">
+          <main>
+            <p class="md:text-[#fcfc] text-[#fd8afdcc] text-[16px] mb-[25px] leading-[27px]">Managing software workflow is an essential service I can provide as it is important to monitor and improve the
+              website
+            </p>
+          </main>
+          <p style="text-align: center;">
+            <a class="button bg-[#dea32c] text-black rounded-[300px] py-[13px] px-[22px] font-bold border-transparent border-2 border-solid duration-150 hover:bg-transparent hover:text-white hover:cursor-pointer hover:border-2 hover:border-solid hover:border-[#dea32c]" href="#">Read More</a>
+          </p>
+        </div>
+      </div>
     </div>
-  <section id="project">
+  </div>
+  <section id="project" class="w-[100%] lg:py-[50px] sm:py-[40px] py-[35px] leading-none bg-[#191919]">
     <div class="title pro">
-      <h2>Projects</h2>
+      <h2 class="text-white text-center lg:text-[60px] sm:text-[50px] text-[40px] sm:pb-10 lg:pb-0 md:pb-8">Projects</h2>
     </div>
-    <div class="container">
-            <div class="item-1">
-                <h2 class="mine">My website</h2>
-                <img src="my-site first page.JPG" alt="">
-                <p class="info">This is a website created by me  early this year, in order to test my level of skill</p><br>
-                <P>To see the full website click <a href="https://duckytech.000webhostapp.com/real.html">here</a></P>
-            </div>
-            <div class="item-2">
-                <h2>Side Hustle Internship</h2>
-                <img src="side-hustle group project.JPG" alt="">
-                <p>This is a website created by me alongside my groupmates during our final task in Side Hustle Internship.</p>
-                <P>To see the full website click <a href="https://misskemy7.github.io/group-61-capstone-project-2/">here</a></P>
-            </div>
-            <div class="item-3">
-                <h2> Zuri Internship</h2>
-                <img src="zuri.JPG" alt="">
-                <p>This is my portfolio created during one of my task at Zuri Internship.</p>
-                <P>To see the full website click <a href="https://zuri-work.oluwanifemiteme.repl.co/">here</a></P>
-            </div>
-        </div>
-      </div>    
+    <div class="container lg:flex lg:flex-wrap lg:justify-center lg:mt-0 md:mt-[0] lg:min-h-[400px] lg:items-center lg:mx-auto mx-auto">
+      <div class="item-1 border-4 border-solid border-[#dea32c] bg-white lg:m-[15px] md:py-[20px] md:px-[35px] px-[32px] lg:h-[400px] md:h-[395px] sm:h-[355px] h-auto lg:w-[30%] md:w-[50%] w-[80%] sm:w-[60%] mx-auto mb-[30px]">
+        <h2 class="mine font-bold text-[24px] block my-[20px] ms-0 me-0">My website</h2>
+        <img src="my-site first page.JPG" class="w-[250px] mx-auto" alt="">
+        <p class="info block my-[16px] ms-0 me-0 leading-[20px]">This is a website created by me  early this year, in order to test my level of skill</p><br>
+        <P class="leading-[20px] ms-0 me-0 my-1">To see the full website click <a href="https://duckytech.000webhostapp.com/real.html"target="_blank">here</a></P>
+      </div>
+      <div class="item-2 border-4 border-solid border-[#dea32c] bg-white lg:m-[15px] md:py-[20px] md:px-[35px] px-[32px] lg:h-[400px] md:h-[395px] sm:h-[355px] h-auto lg:w-[30%] md:w-[50%] w-[80%] sm:w-[60%] mx-auto mb-[30px]">
+        <h2 class="font-bold text-[24px] block my-[20px] ms-0 me-0">Side Hustle Internship</h2>
+        <img src="side-hustle group project.JPG" class="w-[250px] mx-auto" alt="">
+        <p class='my-4 ms-0 me-0 leading-[20px] block'>This is a website created by me alongside my groupmates during our final task in Side Hustle Internship.</p>
+        <P class="my-1 ms-0 me-0 leading-[20px] block">To see the full website click <a href="https://misskemy7.github.io/group-61-capstone-project-2/" target="_blank">here</a></P>
+      </div>
+      <div class="item-3 border-4 border-solid border-[#dea32c] bg-white lg:m-[15px] md:py-[20px] md:px-[35px] px-[32px] lg:h-[400px] md:h-[395px] sm:h-[355px] h-auto lg:w-[30%] md:w-[50%] w-[80%] sm:w-[60%] mx-auto mb-[30px]">
+        <h2 class="font-bold text-[24px] block my-[20px] ms-0 me-0"> Zuri Internship</h2>
+        <img src="zuri.JPG" class="w-[250px] mx-auto" alt="">
+        <p class="block my-[16px] ms-0 me-0 leading-[20px]">This is my portfolio created during one of my task at Zuri Internship.</p>
+        <P class="block my-[16px] ms-0 me-0 leading-[20px]">To see the full website click <a href="https://zuri-work.oluwanifemiteme.repl.co/" target="_blank">here</a></P>
+      </div>
+      <div
+        class="item-4 border-4 border-solid border-[#dea32c] bg-white lg:m-[15px] md:py-[20px] md:px-[35px] px-[32px] lg:h-[400px] md:h-[395px] sm:h-[355px] h-auto lg:w-[30%] md:w-[50%] w-[80%] sm:w-[60%] mx-auto">
+        <h2 class="font-bold text-[24px] block my-[20px] ms-0 me-0"> HNG Internship</h2>
+        <img src="metabnb.JPG" class="w-[250px] mx-auto" alt="">
+        <p class="block my-[16px] ms-0 me-0 leading-[20px]">This is one of the task given to me during my training in HNG
+          Internship.</p>
+        <P class="block my-[16px] ms-0 me-0 leading-[20px]">To see the full website click <a
+            href="https://task-metabnb.netlify.app/" target="_blank">here</a></P>
+      </div>
+    </div>
+    </div>    
   </section>
   <section id="skills">
-    <div class="skills">
-      <h1>My skills</h1>
+    <div class="skills sm:bg-[#333] uppercase lg:mx-auto mx-auto lg:my-[100px] sm:my-[70px] my-[20px] lg:w-[42%] sm:w-[60%] w-[80%] list-none p-5">
+      <h1 class="text-center sm:text-white text-black">My skills</h1>
 
-      <li>
-        <h3>html</h3>
-        <span class="bar"><span class="html"></span></span>
+      <li class="p-[10px] lg:my-[20px] lg:mx-0">
+        <h3 class="m-[5px] sm:text-white text-black">html</h3>
+        <span class="bar bg-[#353b48] block h-5 rounded-[10px] overflow-hidden"><span class="html h-5 float-left"></span></span>
       </li>
-      <li>
-        <h3>css</h3>
-        <span class="bar"><span class="css"></span></span>
+      <li class="p-[10px] lg:mt-[20px] lg:mx-0">
+        <h3 class="m-[5px] sm:text-white text-black">css</h3>
+        <span class="bar bg-[#353b48] block h-5 rounded-[10px] overflow-hidden"><span class="css"></span></span>
       </li>
-      <li>
-            <h3>javascript</h3>
-            <span class="bar"><span class="javascript"></span></span>
+      <li class="p-[10px] lg:mt-[20px] lg:mx-0">
+          <h3 class="m-[5px] sm:text-white text-black">javascript</h3>
+          <span class="bar bg-[#353b48] block h-5 rounded-[10px] overflow-hidden"><span class="javascript"></span></span>
       </li>
-      <li>
-          <h3>github</h3>
-          <span class="bar"><span class="github"></span></span>
+      <li class="p-[10px] lg:mt-[20px] lg:mx-0">
+        <h3 class="m-[5px] sm:text-white text-black">github</h3>
+        <span class="bar bg-[#353b48] block h-5 rounded-[10px] overflow-hidden"><span class="github"></span></span>
       </li>
     </div>
   </section>
-  <div class="other-thing">
-        <div>
-            <h2>Others things about me</h2>
-        </div>
-        <div class="joiner">
-            <div class="hobby">
-                <h3>Hobbies</h3>
-                <ul>
-                    <li>Coding</li>
-                    <li>Reading Novel</li>
-                    <li>Playing Games</li>
-                    <li>Cooking</li>
-                </ul>
-            </div>
-            <div class="priorities"> 
-                <h3>Priorities</h3>
-                <ul>
-                    <li>Having a solid knowledge in front-end development</li>
-                    <li>Getting admission into the university</li>
-                    <li>Balancing my personal life with my work life</li>
-                    <li>Building my work portfolio</li>
-                </ul>
-            </div>
-        </div>
+  <div class="other-thing bg-[rgb(25,25,25)] lg:py-[100px] md:py-[70px] sm:py-[50px] py-[40px] lg:px-[30px]">
+    <div>
+      <h2 class="lg:pb-5 md:pb-4 sm:pb-4 pb-3 md:text-[20px] sm:text-[25px] text-[20px] lg:text-base text-center text-white">Others things about me</h2>
     </div>
-  <footer>
-    <p>Oluwanifemi Temenu</p>
-    <p>Need to get in touch with me? - please click on the link below to contact me:</p>
-    <div class="social">
-      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+    <div class="joiner lg:flex lg:items-center lg:text-start text-center justify-evenly">
+      <div class="hobby lg:pb-0  md:pb-3 sm:pb-3 pb-4">
+        <h3 class="text-[#ff62ffcc]">Hobbies</h3>
+        <ul>
+          <li>Coding</li>
+          <li>Reading Novel</li>
+          <li>Playing Games</li>
+          <li>Cooking</li>
+        </ul>
+      </div>
+      <div class="priorities"> 
+        <h3 class="text-[#ff62ffcc]">Priorities</h3>
+        <ul>
+          <li>Having a solid knowledge in front-end development</li>
+          <li>Learning frameworks complementing front-end development</li>
+          <li>Balancing my personal life with my work life</li>
+          <li>Getting an internship to gain experience</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-white sm:flex flex sm:flex-col flex-col justify-center items-center w-full sm:justify-center sm:items-center sm:w-full lg:px-0 lg:py-7 md:md:py-7 sm:py-6 py-5">
+    <p class="lg:text-[30px] md:text-[30px] sm:text-[30px] text-[25px] font-bold pb-5 text-black">Oluwanifemi Temenu</p>
+    <p class="text-center text-black lg:text-[20px] leading-[26px] lg:w-[600px] lg:px-0 md:px-2 sm:px-4 px-7">Need to get in touch with me? - please click on the link below to contact me:</p>
+    <div class="social flex">
+      <a href="#" class="text-[20px] text-white bg-[#dea32c] rounded-[50%] w-[45px] h-[45px] flex items-center justify-center my-[22px] mx-5"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="text-[20px] text-white bg-[#dea32c] rounded-[50%] w-[45px] h-[45px] flex items-center justify-center my-[22px] mx-5"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" class="text-[20px] text-white bg-[#dea32c] rounded-[50%] w-[45px] h-[45px] flex items-center justify-center my-[22px] mx-5"><i class="fa-brands fa-dribbble"></i></a>
     </div>
     <h2>
       <span>
        OR
       </span>
     </h2>
-    <p style="padding-top: 20px;">Send message to temenuoluwanifemi2005@gmail.com</p>
-    <p class="end">copyRight by Oluwanifemi Temenu</p>
+    <p style="padding-top: 20px;" class="text-center">Send message to temenuoluwanifemi2005@gmail.com</p>
+    <p class="end text-[#dea32c] text-[14px] lg:pt-5 md:pt-5 sm:pt-2 pt-2">copyRight by Oluwanifemi Temenu</p>
   </footer>
   <script src="script.js"></script>
 
@@ -216,7 +238,8 @@
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <!-- <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  -->
 </body>
+
 
 </html>
