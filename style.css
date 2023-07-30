@@ -16,18 +16,18 @@
 } */
 .toggle-button{
     position: absolute;
-    top: 2.5rem;
-    right: 50%;
+    /* top: 2.5rem;
+    right: 50%; */
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 21px;
+    /* width: 30px;
+    height: 21px; */
 }
-.toggle-contact{
+/* .toggle-contact{
     position: absolute;
     top: 2.1rem;
     right: 3.5rem;
-}
+} */
 /* body{
     width: 100%;
 } */
