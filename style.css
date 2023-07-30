@@ -5,6 +5,29 @@
   font-family: 'Josefin Sans', sans-serif;
   scroll-behavior: smooth;
 }
+/* .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+/* .navbar-links li a{
+    display: block;
+    padding: 1rem;
+} */
+.toggle-button{
+    position: absolute;
+    top: 2.5rem;
+    right: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-contact{
+    position: absolute;
+    top: 1rem;
+    right: 3.5rem;
+}
 /* body{
     width: 100%;
 } */
@@ -636,7 +659,10 @@ h3, h1, h5{
     } */
 }
 /* For Tablet */
-@media(max-width:1000px) {
+@media(max-width:1023px) {
+    .navbar-links.active{
+        display: flex;
+    }
     /* header {
         display: flex;
         align-items: center;

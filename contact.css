@@ -66,9 +66,9 @@ input textarea{
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  float: left;
+  /* float: left; */
 }
-@media (min-width: 992px){
+@media (min-width: 1023px){
   .col-1{
     width: 33.33333333%;
   }
